@@ -1,0 +1,57 @@
+{
+  "_from": "validate-vat-ssl",
+  "_inBundle": false,
+  "_integrity": "sha512-Jao/jFcLgueHWmM0wLvNylqHGiX8xAFuOQxmZmLbjfsZ/pc/Mjh9zxqx38TnFmbDyl4KeHFpjUPKXJBSmfGM5Q==",
+  "_location": "/validate-vat-ssl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "validate-vat-ssl",
+    "name": "validate-vat-ssl",
+    "escapedName": "validate-vat-ssl",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/validate-vat-ssl/-/validate-vat-ssl-1.0.0.tgz",
+  "_shasum": "7a30a47d3a68db20a17d065c3fcec1ef70932878",
+  "_spec": "validate-vat-ssl",
+  "_where": "/home/emanuel/Desktop/01_Projects/04_VAT EU check",
+  "author": "Emanuel Miron",
+  "bugs": {
+    "url": "https://github.com/EmanuelMiron/validate-vat-ssl/issues"
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A Europe VAT number validation lib",
+  "devDependencies": {
+    "coffee-script": "1.12.7",
+    "expect.js": "0.3.1",
+    "mocha": "6.1.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/EmanuelMiron/validate-vat-ssl#readme",
+  "keywords": [
+    "VAT",
+    "VIES",
+    "Tax",
+    "Number",
+    "Validation",
+    "node.js"
+  ],
+  "license": "MIT",
+  "main": "validate-vat-ssl.js",
+  "name": "@emanuel_miron/validate-vat-ssl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmanuelMiron/validate-vat-ssl.git"
+  },
+  "version": "1.0.0"
+}
