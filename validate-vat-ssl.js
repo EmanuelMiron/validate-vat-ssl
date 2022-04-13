@@ -112,7 +112,7 @@
           data = parseSoapResponse(str);
         } catch (error) {
           err = error;
-          return callback(err);
+          return callback(err, str);
         }
         if ((ref = data.faultString) != null ? ref.length : void 0) {
           err = new Error(getReadableErrorMsg(data.faultString));
